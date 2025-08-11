@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "rootDirectory": "Beardevops",
+  "rootDirectory": "beardevops-new",
   "routes": [
     {
       "src": "/(.*)",
@@ -10,4 +10,3 @@
     }
   ]
 }
-
