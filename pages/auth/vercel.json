@@ -1,10 +1,10 @@
 {
   "builds": [
     {
-      "src": "Beardevops/package.json",
+      "src": "beardevops/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "Beardevops/dist"
+        "distDir": "beardevops/dist"
       }
     }
   ],
