@@ -4,7 +4,8 @@
       "src": "beardevops/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "beardevops/dist"
+        "distDir": "dist",
+        "buildCommand": "npm run build"
       }
     }
   ],
