@@ -1,11 +1,12 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "framework": "vite",
-  "routes": [
+  "builds": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "src": "beardevops/index.html",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "beardevops/dist" }
     }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/beardevops/index.html" }
   ]
 }
