@@ -1,12 +1,12 @@
 {
   "builds": [
     {
-      "src": "beardevops/index.html",
+      "src": "beardevops/package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "beardevops/dist" }
+      "config": { "distDir": "dist" }
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/beardevops/index.html" }
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
